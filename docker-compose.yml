@@ -1,0 +1,8 @@
+version: '3'
+services:
+  webapp:
+    build:
+      context: countries01
+      dockerfile: Dockerfile
+    ports :
+      - "3000:4200"
