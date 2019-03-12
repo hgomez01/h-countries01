@@ -7,6 +7,8 @@ export class Country {
     capital: string;
     subregion: string;
     population: number;
+/*    
     languages: Language[];
     currencies: Currency[];
+*/
 }
